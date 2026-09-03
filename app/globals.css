@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@theme {
+    --color-pri: rgb(99, 60, 255);
+    --color-text: rgb(115, 115, 115);
+    --color-error: rgb(255, 57, 57);
+    --color-text-sec: rgb(51, 51, 51);
+    --color-light: rgb(217, 217, 217);
+    --color-border: rgb(217, 217, 217);
+    --shadow-main: 0 0 32px 0 rgba(99,60,255, 0.25);
+
+}
+
+.t {
+    @apply leading-[150%] tracking-normal
+}
+
+
