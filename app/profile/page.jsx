@@ -1,3 +1,4 @@
+import ButtonContainer from '@/components/ButtonContainer/ButtonContainer'
 import Header from '@/components/Header/Header'
 import PreviewPanel from '@/components/PreviewPanel/PreviewPanel'
 import React from 'react'
@@ -8,8 +9,11 @@ const ProfilePage = () => {
             <Header />
             <div className='flex flex-1 w-93.75 md:w-full h-full md:rounded-xl md:mb-6 gap-6'>
                 <PreviewPanel />
-                <div className='md:w-full bg-white w-86 rounded-xl max-w-202 mx-auto lg:ml-auto lg:mx-0'>
+                <div className='md:w-full bg-white w-86 rounded-xl max-w-202 mx-auto lg:ml-auto lg:mx-0 flex flex-col'>
+                    <div className='flex-1'>
 
+                    </div>
+                    <ButtonContainer />
                 </div>
             </div>
         </div>
