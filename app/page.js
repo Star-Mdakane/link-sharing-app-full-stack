@@ -13,7 +13,7 @@ const LinksPage = () => {
       <div className='flex flex-1 w-93.75 md:w-full h-auto max-h-235 md:max-h-222  md:rounded-xl md:mb-6 gap-6 overflow-hidden'>
         <PreviewPanel />
         <div className='md:w-full h-auto bg-white w-86 rounded-xl max-w-202 mx-auto lg:ml-auto lg:mx-0 flex flex-col'>
-          <div className='flex-1 h-auto flex flex-col p-6 md:p-10 gap-10 max-h-205 md:max-h-190 overflow-hidden overflow-y-auto scrollbar-none'>
+          <div className='flex-1 h-auto flex flex-col p-6 md:p-10 gap-10 max-h-205 md:max-h-190 overflow-hidden'>
             <div>
               <h2 className='t text-[24px] md:text-[32px] text-text-sec font-semibold'>Customize your links</h2>
               <p className='t text-[16px] text-text'>Add/edit/remove links below and then share all your profiles with the world!</p>

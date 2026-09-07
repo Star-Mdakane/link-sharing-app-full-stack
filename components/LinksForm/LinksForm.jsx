@@ -11,7 +11,7 @@ const LinksForm = () => {
 
     const Icon = selected.icon
     return (
-        <div className='w-full h-full rounded-t-xl flex flex-col gap-6 overflow-hidden'>
+        <div className='w-full h-auto rounded-t-xl flex flex-col gap-6 overflow-y-auto scrollbar-none'>
             <div className="rounded-xl bg-light flex flex-col gap-4 p-4 md:p-6">
                 <div className='flex items-center justify-between'>
                     <div className='flex items-center gap-2 text-text t text-[16px] font-bold'>
